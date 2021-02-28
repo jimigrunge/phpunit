@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="4.x-dev@">
+  <file src="src/Framework/Assert.php">
+    <DeprecatedClass occurrences="12">
+      <code>ClassHasAttribute</code>
+      <code>ClassHasStaticAttribute</code>
+      <code>ObjectHasAttribute</code>
+      <code>new ClassHasAttribute($attributeName)</code>
+      <code>new ClassHasAttribute($attributeName)</code>
+      <code>new ClassHasAttribute($attributeName)</code>
+      <code>new ClassHasStaticAttribute($attributeName)</code>
+      <code>new ClassHasStaticAttribute($attributeName)</code>
+      <code>new ClassHasStaticAttribute($attributeName)</code>
+      <code>new ObjectHasAttribute($attributeName)</code>
+      <code>new ObjectHasAttribute($attributeName)</code>
+      <code>new ObjectHasAttribute($attributeName)</code>
+    </DeprecatedClass>
+    <DocblockTypeContradiction occurrences="16">
+      <code>!$actual instanceof Countable &amp;&amp; !is_iterable($actual)</code>
+      <code>!$actual instanceof Countable &amp;&amp; !is_iterable($actual)</code>
+      <code>!$expected instanceof Countable &amp;&amp; !is_iterable($expected)</code>
+      <code>!$expected instanceof Countable &amp;&amp; !is_iterable($expected)</code>
+      <code>!$haystack instanceof Countable &amp;&amp; !is_iterable($haystack)</code>
+      <code>!$haystack instanceof Countable &amp;&amp; !is_iterable($haystack)</code>
+      <code>$array instanceof ArrayAccess</code>
+      <code>$array instanceof ArrayAccess</code>
+      <code>is_array($array) || $array instanceof ArrayAccess</code>
+      <code>is_array($array) || $array instanceof ArrayAccess</code>
+      <code>is_int($key) || is_string($key)</code>
+      <code>is_int($key) || is_string($key)</code>
+      <code>is_object($object)</code>
+      <code>is_object($object)</code>
+      <code>is_string($key)</code>
+      <code>is_string($key)</code>
+    </DocblockTypeContradiction>
+    <MissingParamType occurrences="82">
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$attributeName</code>
+      <code>$condition</code>
+      <code>$condition</code>
+      <code>$condition</code>
+      <code>$condition</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$needle</code>
+      <code>$needle</code>
+      <code>$needle</code>
+      <code>$needle</code>
+      <code>$prefix</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+    </MissingParamType>
+    <MissingThrowsDocblock occurrences="37">
+      <code>loadFile</code>
+      <code>loadFile</code>
+      <code>loadFile</code>
+      <code>loadFile</code>
+      <code>new IsType($type)</code>
+      <code>new IsType(IsType::TYPE_ARRAY)</code>
+      <code>new IsType(IsType::TYPE_ARRAY)</code>
+      <code>new IsType(IsType::TYPE_BOOL)</code>
+      <code>new IsType(IsType::TYPE_BOOL)</code>
+      <code>new IsType(IsType::TYPE_CALLABLE)</code>
+      <code>new IsType(IsType::TYPE_CALLABLE)</code>
+      <code>new IsType(IsType::TYPE_CLOSED_RESOURCE)</code>
+      <code>new IsType(IsType::TYPE_CLOSED_RESOURCE)</code>
+      <code>new IsType(IsType::TYPE_FLOAT)</code>
+      <code>new IsType(IsType::TYPE_FLOAT)</code>
+      <code>new IsType(IsType::TYPE_INT)</code>
+      <code>new IsType(IsType::TYPE_INT)</code>
+      <code>new IsType(IsType::TYPE_ITERABLE)</code>
+      <code>new IsType(IsType::TYPE_ITERABLE)</code>
+      <code>new IsType(IsType::TYPE_NUMERIC)</code>
+      <code>new IsType(IsType::TYPE_NUMERIC)</code>
+      <code>new IsType(IsType::TYPE_OBJECT)</code>
+      <code>new IsType(IsType::TYPE_OBJECT)</code>
+      <code>new IsType(IsType::TYPE_RESOURCE)</code>
+      <code>new IsType(IsType::TYPE_RESOURCE)</code>
+      <code>new IsType(IsType::TYPE_SCALAR)</code>
+      <code>new IsType(IsType::TYPE_SCALAR)</code>
+      <code>new IsType(IsType::TYPE_STRING)</code>
+      <code>new IsType(IsType::TYPE_STRING)</code>
+      <code>new TraversableContainsOnly($className, false)</code>
+      <code>new TraversableContainsOnly($type)</code>
+      <code>static::assertThat($haystack, $constraint, $message)</code>
+      <code>static::assertThat($haystack, $constraint, $message)</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Framework/Assert/Functions.php">
+    <DeprecatedClass occurrences="3">
+      <code>ClassHasAttribute</code>
+      <code>ClassHasStaticAttribute</code>
+      <code>ObjectHasAttribute</code>
+    </DeprecatedClass>
+    <DeprecatedMethod occurrences="9">
+      <code>Assert::assertClassHasAttribute(...func_get_args())</code>
+      <code>Assert::assertClassHasStaticAttribute(...func_get_args())</code>
+      <code>Assert::assertClassNotHasAttribute(...func_get_args())</code>
+      <code>Assert::assertClassNotHasStaticAttribute(...func_get_args())</code>
+      <code>Assert::assertObjectHasAttribute(...func_get_args())</code>
+      <code>Assert::assertObjectNotHasAttribute(...func_get_args())</code>
+      <code>Assert::classHasAttribute(...func_get_args())</code>
+      <code>Assert::classHasStaticAttribute(...func_get_args())</code>
+      <code>Assert::objectHasAttribute(...func_get_args())</code>
+    </DeprecatedMethod>
+    <MissingParamType occurrences="85">
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$actual</code>
+      <code>$attributeName</code>
+      <code>$callback</code>
+      <code>$condition</code>
+      <code>$condition</code>
+      <code>$condition</code>
+      <code>$condition</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$expected</code>
+      <code>$key</code>
+      <code>$needle</code>
+      <code>$needle</code>
+      <code>$needle</code>
+      <code>$needle</code>
+      <code>$prefix</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+    </MissingParamType>
+    <MissingThrowsDocblock occurrences="1">
+      <code>Assert::logicalAnd(...func_get_args())</code>
+    </MissingThrowsDocblock>
+    <TooManyArguments occurrences="13">
+      <code>Assert::anything(...func_get_args())</code>
+      <code>Assert::directoryExists(...func_get_args())</code>
+      <code>Assert::fileExists(...func_get_args())</code>
+      <code>Assert::isEmpty(...func_get_args())</code>
+      <code>Assert::isFalse(...func_get_args())</code>
+      <code>Assert::isFinite(...func_get_args())</code>
+      <code>Assert::isInfinite(...func_get_args())</code>
+      <code>Assert::isJson(...func_get_args())</code>
+      <code>Assert::isNan(...func_get_args())</code>
+      <code>Assert::isNull(...func_get_args())</code>
+      <code>Assert::isReadable(...func_get_args())</code>
+      <code>Assert::isTrue(...func_get_args())</code>
+      <code>Assert::isWritable(...func_get_args())</code>
+    </TooManyArguments>
+  </file>
+  <file src="src/Framework/Constraint/Cardinality/Count.php">
+    <MissingParamType occurrences="1">
+      <code>$other</code>
+    </MissingParamType>
+    <MissingThrowsDocblock occurrences="1">
+      <code>getCountOf</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Framework/Constraint/Cardinality/SameSize.php">
+    <MissingThrowsDocblock occurrences="1">
+      <code>getCountOf</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Framework/Constraint/Constraint.php">
+    <MissingParamType occurrences="1">
+      <code>$other</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/Constraint/Equality/IsEqual.php">
+    <MissingParamType occurrences="2">
+      <code>$other</code>
+      <code>$value</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/Constraint/Equality/IsEqualCanonicalizing.php">
+    <MissingParamType occurrences="2">
+      <code>$other</code>
+      <code>$value</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/Constraint/Equality/IsEqualIgnoringCase.php">
+    <MissingParamType occurrences="2">
+      <code>$other</code>
+      <code>$value</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/Constraint/Equality/IsEqualWithDelta.php">
+    <MissingParamType occurrences="2">
+      <code>$other</code>
+      <code>$value</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/Constraint/Exception/Exception.php">
+    <MissingThrowsDocblock occurrences="1">
+      <code>Filter::getFilteredStacktrace($other)</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Framework/Constraint/Exception/ExceptionCode.php">
+    <MoreSpecificImplementedParamType occurrences="1">
+      <code>$other</code>
+    </MoreSpecificImplementedParamType>
+  </file>
+  <file src="src/Framework/Constraint/Exception/ExceptionMessage.php">
+    <MoreSpecificImplementedParamType occurrences="1">
+      <code>$other</code>
+    </MoreSpecificImplementedParamType>
+    <RedundantCast occurrences="1">
+      <code>(string) $other-&gt;getMessage()</code>
+    </RedundantCast>
+  </file>
+  <file src="src/Framework/Constraint/Exception/ExceptionMessageRegularExpression.php">
+    <MoreSpecificImplementedParamType occurrences="1">
+      <code>$other</code>
+    </MoreSpecificImplementedParamType>
+  </file>
+  <file src="src/Framework/Constraint/IsAnything.php">
+    <MissingParamType occurrences="1">
+      <code>$other</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/Constraint/IsIdentical.php">
+    <MissingParamType occurrences="2">
+      <code>$other</code>
+      <code>$value</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/Constraint/Object/ClassHasAttribute.php">
+    <MissingThrowsDocblock occurrences="1"/>
+  </file>
+  <file src="src/Framework/Constraint/Object/ClassHasStaticAttribute.php">
+    <DeprecatedClass occurrences="1">
+      <code>ClassHasAttribute</code>
+    </DeprecatedClass>
+    <MissingThrowsDocblock occurrences="1"/>
+  </file>
+  <file src="src/Framework/Constraint/Object/ObjectHasAttribute.php">
+    <DeprecatedClass occurrences="1">
+      <code>ClassHasAttribute</code>
+    </DeprecatedClass>
+  </file>
+  <file src="src/Framework/Constraint/Operator/BinaryOperator.php">
+    <UnsafeInstantiation occurrences="1">
+      <code>new static</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Framework/Constraint/Operator/LogicalNot.php">
+    <MissingThrowsDocblock occurrences="1">
+      <code>evaluate</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Framework/Constraint/Operator/Operator.php">
+    <MissingParamType occurrences="1">
+      <code>$constraint</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/Constraint/String/StringMatchesFormatDescription.php">
+    <MissingThrowsDocblock occurrences="1">
+      <code>new Differ(new UnifiedDiffOutputBuilder("--- Expected\n+++ Actual\n"))</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Framework/Constraint/String/StringStartsWith.php">
+    <MissingThrowsDocblock occurrences="1">
+      <code>throw InvalidArgumentException::create(1, 'non-empty string');</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Framework/Constraint/Traversable/TraversableContains.php">
+    <MissingParamType occurrences="1">
+      <code>$value</code>
+    </MissingParamType>
+    <MissingReturnType occurrences="1">
+      <code>value</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/Constraint/Type/IsInstanceOf.php">
+    <ArgumentTypeCoercion occurrences="1">
+      <code>$this-&gt;className</code>
+    </ArgumentTypeCoercion>
+  </file>
+  <file src="src/Framework/DataProviderTestSuite.php">
+    <ArgumentTypeCoercion occurrences="1">
+      <code>$className</code>
+    </ArgumentTypeCoercion>
+  </file>
+  <file src="src/Framework/ErrorTestCase.php">
+    <NonInvariantDocblockPropertyType occurrences="1">
+      <code>$backupGlobals</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="src/Framework/Exception/Exception.php">
+    <MissingParamType occurrences="2">
+      <code>$code</code>
+      <code>$message</code>
+    </MissingParamType>
+    <MissingThrowsDocblock occurrences="1">
+      <code>Filter::getFilteredStacktrace($this)</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Framework/ExceptionWrapper.php">
+    <MissingThrowsDocblock occurrences="1">
+      <code>Filter::getFilteredStacktrace($this)</code>
+    </MissingThrowsDocblock>
+    <PossiblyNullArgument occurrences="1">
+      <code>$t-&gt;getPrevious()</code>
+    </PossiblyNullArgument>
+  </file>
+  <file src="src/Framework/IncompleteTestCase.php">
+    <NonInvariantDocblockPropertyType occurrences="1">
+      <code>$backupGlobals</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="src/Framework/MockObject/Builder/Identity.php">
+    <MissingReturnType occurrences="1">
+      <code>id</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/Builder/InvocationMocker.php">
+    <MissingParamType occurrences="2">
+      <code>$id</code>
+      <code>$id</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/MockObject/Builder/InvocationStubber.php">
+    <MissingParamType occurrences="2">
+      <code>$nextValues</code>
+      <code>$value</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/MockObject/Builder/ParametersMatch.php">
+    <MissingParamType occurrences="1">
+      <code>$arguments</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/MockObject/ConfigurableMethod.php">
+    <MissingParamType occurrences="1">
+      <code>$value</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/MockObject/Generator.php">
+    <ArgumentTypeCoercion occurrences="3">
+      <code>$className</code>
+      <code>$className</code>
+      <code>$interfaceName</code>
+    </ArgumentTypeCoercion>
+    <DocblockTypeContradiction occurrences="1">
+      <code>!is_array($methods) &amp;&amp; null !== $methods</code>
+    </DocblockTypeContradiction>
+    <InvalidReturnStatement occurrences="1"/>
+    <InvalidReturnType occurrences="1">
+      <code>MockObject&amp;RealInstanceType</code>
+    </InvalidReturnType>
+    <MissingParamType occurrences="1">
+      <code>$type</code>
+    </MissingParamType>
+    <MissingReturnType occurrences="1">
+      <code>getObject</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/InvocationHandler.php">
+    <MissingReturnType occurrences="1">
+      <code>invoke</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/Matcher.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>MethodName</code>
+    </InvalidNullableReturnType>
+    <MissingReturnType occurrences="1">
+      <code>invoked</code>
+    </MissingReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;methodNameRule</code>
+    </NullableReturnStatement>
+    <RedundantCondition occurrences="1">
+      <code>$this-&gt;invocationRule !== null</code>
+    </RedundantCondition>
+  </file>
+  <file src="src/Framework/MockObject/MockBuilder.php">
+    <ArgumentTypeCoercion occurrences="4">
+      <code>$this-&gt;type</code>
+      <code>$this-&gt;type</code>
+      <code>$this-&gt;type</code>
+      <code>$this-&gt;type</code>
+    </ArgumentTypeCoercion>
+    <InvalidReturnStatement occurrences="3">
+      <code>$object</code>
+      <code>$object</code>
+      <code>$object</code>
+    </InvalidReturnStatement>
+    <InvalidReturnType occurrences="3">
+      <code>MockObject&amp;MockedType</code>
+      <code>MockObject&amp;MockedType</code>
+      <code>MockObject&amp;MockedType</code>
+    </InvalidReturnType>
+    <PossiblyInvalidPropertyAssignmentValue occurrences="1">
+      <code>$type</code>
+    </PossiblyInvalidPropertyAssignmentValue>
+  </file>
+  <file src="src/Framework/MockObject/MockMethod.php">
+    <RedundantCastGivenDocblockType occurrences="1">
+      <code>(string) var_export($parameter-&gt;getDefaultValue(), true)</code>
+    </RedundantCastGivenDocblockType>
+  </file>
+  <file src="src/Framework/MockObject/MockObject.php">
+    <MissingParamType occurrences="1">
+      <code>$originalObject</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Framework/MockObject/Rule/InvocationOrder.php">
+    <MissingReturnType occurrences="2">
+      <code>invoked</code>
+      <code>invokedDo</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/Rule/MethodName.php">
+    <DocblockTypeContradiction occurrences="1">
+      <code>$constraint instanceof Constraint</code>
+    </DocblockTypeContradiction>
+  </file>
+  <file src="src/Framework/MockObject/Rule/Parameters.php">
+    <PossiblyNullPropertyAssignmentValue occurrences="1">
+      <code>null</code>
+    </PossiblyNullPropertyAssignmentValue>
+    <PropertyNotSetInConstructor occurrences="1">
+      <code>$parameterVerificationResult</code>
+    </PropertyNotSetInConstructor>
+    <RedundantCastGivenDocblockType occurrences="1">
+      <code>(bool) $this-&gt;parameterVerificationResult</code>
+    </RedundantCastGivenDocblockType>
+    <RedundantPropertyInitializationCheck occurrences="1">
+      <code>isset($this-&gt;parameterVerificationResult)</code>
+    </RedundantPropertyInitializationCheck>
+  </file>
+  <file src="src/Framework/MockObject/Stub/ConsecutiveCalls.php">
+    <MissingReturnType occurrences="1">
+      <code>invoke</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/Stub/ReturnArgument.php">
+    <MissingParamType occurrences="1">
+      <code>$argumentIndex</code>
+    </MissingParamType>
+    <MissingReturnType occurrences="1">
+      <code>invoke</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/Stub/ReturnCallback.php">
+    <MissingParamType occurrences="1">
+      <code>$callback</code>
+    </MissingParamType>
+    <MissingPropertyType occurrences="1">
+      <code>$callback</code>
+    </MissingPropertyType>
+    <MissingReturnType occurrences="1">
+      <code>invoke</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/Stub/ReturnReference.php">
+    <MissingParamType occurrences="1">
+      <code>$reference</code>
+    </MissingParamType>
+    <MissingReturnType occurrences="1">
+      <code>invoke</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/Stub/ReturnSelf.php">
+    <MissingReturnType occurrences="1">
+      <code>invoke</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/Stub/ReturnStub.php">
+    <MissingParamType occurrences="1">
+      <code>$value</code>
+    </MissingParamType>
+    <MissingReturnType occurrences="1">
+      <code>invoke</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/Stub/ReturnValueMap.php">
+    <MissingReturnType occurrences="1">
+      <code>invoke</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/MockObject/Stub/Stub.php">
+    <MissingReturnType occurrences="1">
+      <code>invoke</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Framework/SkippedTestCase.php">
+    <NonInvariantDocblockPropertyType occurrences="1">
+      <code>$backupGlobals</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="src/Framework/TestBuilder.php">
+    <LessSpecificReturnStatement occurrences="1">
+      <code>$test</code>
+    </LessSpecificReturnStatement>
+    <MissingThrowsDocblock occurrences="3">
+      <code>Filter::getFilteredStacktrace($t)</code>
+      <code>Filter::getFilteredStacktrace($t)</code>
+    </MissingThrowsDocblock>
+    <MoreSpecificReturnType occurrences="1">
+      <code>Test</code>
+    </MoreSpecificReturnType>
+  </file>
+  <file src="src/Framework/TestCase.php">
+    <ArgumentTypeCoercion occurrences="2">
+      <code>$this-&gt;expectedException</code>
+      <code>$this-&gt;size()</code>
+    </ArgumentTypeCoercion>
+    <DocblockTypeContradiction occurrences="2">
+      <code>$this-&gt;backupStaticAttributes === null</code>
+      <code>$this-&gt;runTestInSeparateProcess === null</code>
+    </DocblockTypeContradiction>
+    <InvalidArgument occurrences="1">
+      <code>$header</code>
+    </InvalidArgument>
+    <InvalidReturnStatement occurrences="2">
+      <code>$mockObject</code>
+      <code>get_class($mock)</code>
+    </InvalidReturnStatement>
+    <InvalidReturnType occurrences="2">
+      <code>MockObject&amp;RealInstanceType</code>
+      <code>class-string&lt;MockObject&amp;RealInstanceType&gt;</code>
+    </InvalidReturnType>
+    <MissingParamType occurrences="5">
+      <code>$args</code>
+      <code>$args</code>
+      <code>$callback</code>
+      <code>$result</code>
+      <code>$value</code>
+    </MissingParamType>
+    <MissingReturnType occurrences="2">
+      <code>result</code>
+      <code>runTest</code>
+    </MissingReturnType>
+    <MissingThrowsDocblock occurrences="15">
+      <code>endTest</code>
+      <code>endTest</code>
+      <code>endTest</code>
+      <code>generateClassFromWsdl</code>
+      <code>getMock</code>
+      <code>getMock</code>
+      <code>getMock</code>
+      <code>getMock</code>
+      <code>getMock</code>
+      <code>getMockForAbstractClass</code>
+      <code>getMockForTrait</code>
+      <code>getObjectForTrait</code>
+      <code>new Differ($header)</code>
+      <code>onlyMethods</code>
+    </MissingThrowsDocblock>
+    <PossiblyNullReference occurrences="4">
+      <code>passed</code>
+      <code>startTest</code>
+      <code>startTest</code>
+      <code>startTest</code>
+    </PossiblyNullReference>
+    <PropertyNotSetInConstructor occurrences="4">
+      <code>$backupStaticAttributes</code>
+      <code>$name</code>
+      <code>$outputBufferingLevel</code>
+      <code>$runTestInSeparateProcess</code>
+    </PropertyNotSetInConstructor>
+    <RedundantCastGivenDocblockType occurrences="1">
+      <code>(bool) $this-&gt;backupStaticAttributes</code>
+    </RedundantCastGivenDocblockType>
+    <RedundantCondition occurrences="1">
+      <code>$this instanceof PhptTestCase</code>
+    </RedundantCondition>
+  </file>
+  <file src="src/Framework/TestRunner.php">
+    <MissingThrowsDocblock occurrences="14">
+      <code>CodeCoverage::instance()</code>
+      <code>CodeCoverage::instance()</code>
+      <code>CodeCoverage::instance()</code>
+      <code>CodeCoverage::instance()</code>
+      <code>CodeCoverage::start($test)</code>
+      <code>GlobalState::getIncludedFilesAsString()</code>
+      <code>cacheDirectory</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>runTestJob</code>
+      <code>stop</code>
+    </MissingThrowsDocblock>
+    <PossiblyUndefinedVariable occurrences="4">
+      <code>$_timeout</code>
+      <code>$e</code>
+      <code>$e</code>
+      <code>$e</code>
+    </PossiblyUndefinedVariable>
+  </file>
+  <file src="src/Framework/TestSuite.php">
+    <DocblockTypeContradiction occurrences="3">
+      <code>!is_string($theClass) &amp;&amp; !$theClass instanceof ReflectionClass</code>
+      <code>is_string($testClass)</code>
+      <code>is_string($testClass) &amp;&amp; class_exists($testClass)</code>
+    </DocblockTypeContradiction>
+    <MissingThrowsDocblock occurrences="1"/>
+    <PossiblyNullArgument occurrences="3">
+      <code>$this-&gt;backupGlobals</code>
+      <code>$this-&gt;backupStaticAttributes</code>
+      <code>$this-&gt;beStrictAboutChangesToGlobalState</code>
+    </PossiblyNullArgument>
+    <RedundantCastGivenDocblockType occurrences="1">
+      <code>(string) $key</code>
+    </RedundantCastGivenDocblockType>
+    <RedundantConditionGivenDocblockType occurrences="6">
+      <code>is_bool($backupGlobals)</code>
+      <code>is_bool($backupStaticAttributes)</code>
+      <code>is_bool($beStrictAboutChangesToGlobalState)</code>
+      <code>null === $this-&gt;backupGlobals &amp;&amp; is_bool($backupGlobals)</code>
+      <code>null === $this-&gt;backupStaticAttributes &amp;&amp; is_bool($backupStaticAttributes)</code>
+      <code>null === $this-&gt;beStrictAboutChangesToGlobalState &amp;&amp; is_bool($beStrictAboutChangesToGlobalState)</code>
+    </RedundantConditionGivenDocblockType>
+  </file>
+  <file src="src/Framework/WarningTestCase.php">
+    <NonInvariantDocblockPropertyType occurrences="1">
+      <code>$backupGlobals</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="src/Runner/CodeCoverage.php">
+    <InvalidNullableReturnType occurrences="2">
+      <code>Driver</code>
+      <code>\SebastianBergmann\CodeCoverage\CodeCoverage</code>
+    </InvalidNullableReturnType>
+    <MissingParamType occurrences="1">
+      <code>$linesToBeCovered</code>
+    </MissingParamType>
+    <MissingThrowsDocblock occurrences="2">
+      <code>forLineAndPathCoverage</code>
+      <code>forLineCoverage</code>
+    </MissingThrowsDocblock>
+    <NullableReturnStatement occurrences="2">
+      <code>self::$driver</code>
+      <code>self::$instance</code>
+    </NullableReturnStatement>
+    <PossiblyNullReference occurrences="2">
+      <code>start</code>
+      <code>stop</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="src/Runner/DefaultTestResultCache.php">
+    <MissingClosureReturnType occurrences="1">
+      <code>static function () use ($cacheData) {</code>
+    </MissingClosureReturnType>
+  </file>
+  <file src="src/Runner/Filter/GroupFilterIterator.php">
+    <MissingReturnType occurrences="1">
+      <code>doAccept</code>
+    </MissingReturnType>
+    <UndefinedInterfaceMethod occurrences="1">
+      <code>current</code>
+    </UndefinedInterfaceMethod>
+  </file>
+  <file src="src/Runner/Filter/NameFilterIterator.php">
+    <PossiblyNullArgument occurrences="1">
+      <code>$this-&gt;filter</code>
+    </PossiblyNullArgument>
+    <UndefinedInterfaceMethod occurrences="1">
+      <code>current</code>
+    </UndefinedInterfaceMethod>
+  </file>
+  <file src="src/Runner/Hook/TestListenerAdapter.php">
+    <DeprecatedClass occurrences="3">
+      <code>TestHook</code>
+      <code>array</code>
+      <code>private array $hooks = [];</code>
+    </DeprecatedClass>
+  </file>
+  <file src="src/Runner/PhptTestCase.php">
+    <InternalClass occurrences="2">
+      <code>RawCodeCoverageData::fromXdebugWithoutPathCoverage([])</code>
+      <code>RawCodeCoverageData::fromXdebugWithoutPathCoverage([])</code>
+    </InternalClass>
+    <InternalMethod occurrences="2">
+      <code>RawCodeCoverageData::fromXdebugWithoutPathCoverage([])</code>
+      <code>RawCodeCoverageData::fromXdebugWithoutPathCoverage([])</code>
+    </InternalMethod>
+    <MissingThrowsDocblock occurrences="4">
+      <code>append</code>
+      <code>cacheDirectory</code>
+      <code>stop</code>
+    </MissingThrowsDocblock>
+    <PossiblyInvalidArgument occurrences="1">
+      <code>$sections['FILEEOF']</code>
+    </PossiblyInvalidArgument>
+  </file>
+  <file src="src/Runner/ResultCacheExtension.php">
+    <DeprecatedInterface occurrences="1">
+      <code>ResultCacheExtension</code>
+    </DeprecatedInterface>
+  </file>
+  <file src="src/Runner/TestSuiteLoader.php">
+    <UnresolvableInclude occurrences="1">
+      <code>include_once $suiteClassFile</code>
+    </UnresolvableInclude>
+  </file>
+  <file src="src/Runner/TestSuiteSorter.php">
+    <MissingClosureParamType occurrences="6">
+      <code>$left</code>
+      <code>$left</code>
+      <code>$left</code>
+      <code>$right</code>
+      <code>$right</code>
+      <code>$right</code>
+    </MissingClosureParamType>
+    <RedundantCondition occurrences="4">
+      <code>$order === self::ORDER_DURATION &amp;&amp; $this-&gt;cache !== null</code>
+      <code>$orderDefects === self::ORDER_DEFECTS_FIRST &amp;&amp; $this-&gt;cache !== null</code>
+      <code>$this-&gt;cache !== null</code>
+      <code>$this-&gt;cache !== null</code>
+    </RedundantCondition>
+  </file>
+  <file src="src/TextUI/CliArguments/Builder.php">
+    <MissingThrowsDocblock occurrences="1"/>
+  </file>
+  <file src="src/TextUI/CliArguments/Configuration.php">
+    <MissingReturnType occurrences="1">
+      <code>columns</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/TextUI/Command.php">
+    <ArgumentTypeCoercion occurrences="1">
+      <code>$printerClass</code>
+    </ArgumentTypeCoercion>
+    <DeprecatedMethod occurrences="2">
+      <code>cacheDirectory</code>
+      <code>hasCacheDirectory</code>
+    </DeprecatedMethod>
+    <LessSpecificReturnStatement occurrences="1">
+      <code>$class-&gt;newInstance($outputStream)</code>
+    </LessSpecificReturnStatement>
+    <MissingThrowsDocblock occurrences="22">
+      <code>addTestFile</code>
+      <code>addTestFiles</code>
+      <code>argument</code>
+      <code>argument</code>
+      <code>atLeastVersion</code>
+      <code>bootstrap</code>
+      <code>cacheDirectory</code>
+      <code>defaultTestSuite</code>
+      <code>extensionsDirectory</code>
+      <code>handleListSuites</code>
+      <code>handleListTests</code>
+      <code>handleListTestsXml</code>
+      <code>includePath</code>
+      <code>iniSettings</code>
+      <code>mapToLegacyArray</code>
+      <code>new TestSuite</code>
+      <code>new TestSuite($suiteClassFile)</code>
+      <code>new TestSuite($testClass)</code>
+      <code>printerClass</code>
+      <code>stop</code>
+      <code>unrecognizedOrderBy</code>
+    </MissingThrowsDocblock>
+    <MoreSpecificReturnType occurrences="1">
+      <code>null|Printer|string</code>
+    </MoreSpecificReturnType>
+    <RedundantCondition occurrences="1">
+      <code>assert(isset($arguments) &amp;&amp; $arguments instanceof Configuration)</code>
+    </RedundantCondition>
+    <UnresolvableInclude occurrences="1">
+      <code>include_once $filename</code>
+    </UnresolvableInclude>
+    <UnsafeInstantiation occurrences="1">
+      <code>new static</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/TextUI/DefaultResultPrinter.php">
+    <MissingThrowsDocblock occurrences="2">
+      <code>parent::__construct($out)</code>
+      <code>stop</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/TextUI/Help.php">
+    <MissingClosureParamType occurrences="1">
+      <code>$matches</code>
+    </MissingClosureParamType>
+    <PossiblyUndefinedArrayOffset occurrences="2">
+      <code>$option['desc']</code>
+      <code>$option['desc']</code>
+    </PossiblyUndefinedArrayOffset>
+  </file>
+  <file src="src/TextUI/TestRunner.php">
+    <DeprecatedClass occurrences="4">
+      <code>Hook</code>
+      <code>array</code>
+      <code>new TestListenerAdapter</code>
+      <code>private array $extensions = [];</code>
+    </DeprecatedClass>
+    <DeprecatedMethod occurrences="9">
+      <code>addListener</code>
+      <code>addListener</code>
+      <code>addListener</code>
+      <code>addListener</code>
+      <code>addListener</code>
+      <code>addListener</code>
+      <code>addListener</code>
+      <code>addListener</code>
+      <code>flushListeners</code>
+    </DeprecatedMethod>
+    <InternalMethod occurrences="1">
+      <code>nameAndVersion</code>
+    </InternalMethod>
+    <InvalidArgument occurrences="6">
+      <code>$e</code>
+      <code>$e</code>
+      <code>$e</code>
+      <code>$e</code>
+      <code>$e</code>
+      <code>$e</code>
+    </InvalidArgument>
+    <InvalidStringClass occurrences="1"/>
+    <MissingThrowsDocblock occurrences="11">
+      <code>addFilter</code>
+      <code>addFilter</code>
+      <code>addFilter</code>
+      <code>addFilter</code>
+      <code>addFilter</code>
+      <code>detect</code>
+      <code>new Printer($arguments['coverageText'])</code>
+      <code>reorderTestsInSuite</code>
+      <code>run</code>
+      <code>stop</code>
+      <code>stop</code>
+    </MissingThrowsDocblock>
+    <PossiblyNullArgument occurrences="3">
+      <code>$this-&gt;codeCoverageFilter</code>
+      <code>$this-&gt;codeCoverageFilter</code>
+      <code>$this-&gt;codeCoverageFilter</code>
+    </PossiblyNullArgument>
+    <PossiblyNullReference occurrences="5">
+      <code>includeDirectory</code>
+      <code>write</code>
+      <code>write</code>
+      <code>write</code>
+      <code>write</code>
+    </PossiblyNullReference>
+    <RedundantCondition occurrences="1">
+      <code>assert($this-&gt;printer instanceof CliTestDoxPrinter)</code>
+    </RedundantCondition>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/CodeCoverage/CodeCoverage.php">
+    <DeprecatedMethod occurrences="1">
+      <code>hasCacheDirectory</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/CodeCoverage/Filter/DirectoryCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;directories</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Filesystem/DirectoryCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;directories</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Filesystem/FileCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;files</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Group/GroupCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;groups</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Loader.php">
+    <RedundantCast occurrences="31">
+      <code>(string) $argument-&gt;textContent</code>
+      <code>(string) $const-&gt;getAttribute('name')</code>
+      <code>(string) $const-&gt;getAttribute('value')</code>
+      <code>(string) $directoryNode-&gt;getAttribute('group')</code>
+      <code>(string) $directoryNode-&gt;getAttribute('phpVersion')</code>
+      <code>(string) $directoryNode-&gt;getAttribute('phpVersionOperator')</code>
+      <code>(string) $directoryNode-&gt;getAttribute('prefix')</code>
+      <code>(string) $directoryNode-&gt;getAttribute('prefix')</code>
+      <code>(string) $directoryNode-&gt;getAttribute('suffix')</code>
+      <code>(string) $directoryNode-&gt;getAttribute('suffix')</code>
+      <code>(string) $directoryNode-&gt;textContent</code>
+      <code>(string) $directoryNode-&gt;textContent</code>
+      <code>(string) $document-&gt;documentElement-&gt;getAttribute('columns')</code>
+      <code>(string) $element-&gt;getAttribute($attribute)</code>
+      <code>(string) $element-&gt;getAttribute($attribute)</code>
+      <code>(string) $element-&gt;getAttribute($attribute)</code>
+      <code>(string) $element-&gt;getAttribute('class')</code>
+      <code>(string) $element-&gt;getAttribute('file')</code>
+      <code>(string) $element-&gt;getAttribute('name')</code>
+      <code>(string) $excludeNode-&gt;textContent</code>
+      <code>(string) $file-&gt;textContent</code>
+      <code>(string) $fileNode-&gt;getAttribute('phpVersion')</code>
+      <code>(string) $fileNode-&gt;getAttribute('phpVersionOperator')</code>
+      <code>(string) $fileNode-&gt;textContent</code>
+      <code>(string) $group-&gt;textContent</code>
+      <code>(string) $group-&gt;textContent</code>
+      <code>(string) $includePath-&gt;textContent</code>
+      <code>(string) $ini-&gt;getAttribute('name')</code>
+      <code>(string) $ini-&gt;getAttribute('value')</code>
+      <code>(string) $var-&gt;getAttribute('name')</code>
+      <code>(string) $var-&gt;getAttribute('value')</code>
+    </RedundantCast>
+    <RedundantConditionGivenDocblockType occurrences="2">
+      <code>assert($directoryNode instanceof DOMElement)</code>
+      <code>assert($fileNode instanceof DOMElement)</code>
+    </RedundantConditionGivenDocblockType>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Logging/Logging.php">
+    <MissingThrowsDocblock occurrences="6">
+      <code>throw new Exception('Logger "JUnit XML" is not configured');</code>
+      <code>throw new Exception('Logger "Team City" is not configured');</code>
+      <code>throw new Exception('Logger "TestDox HTML" is not configured');</code>
+      <code>throw new Exception('Logger "TestDox Text" is not configured');</code>
+      <code>throw new Exception('Logger "TestDox XML" is not configured');</code>
+      <code>throw new Exception('Logger "Text" is not configured');</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Migration/Migrations/CoverageCloverToReport.php">
+    <PossiblyNullReference occurrences="1">
+      <code>createElement</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Migration/Migrations/CoverageCrap4jToReport.php">
+    <PossiblyNullReference occurrences="1">
+      <code>createElement</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Migration/Migrations/CoverageHtmlToReport.php">
+    <PossiblyNullReference occurrences="1">
+      <code>createElement</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Migration/Migrations/CoveragePhpToReport.php">
+    <PossiblyNullReference occurrences="1">
+      <code>createElement</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Migration/Migrations/CoverageTextToReport.php">
+    <PossiblyNullReference occurrences="1">
+      <code>createElement</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Migration/Migrations/CoverageXmlToReport.php">
+    <PossiblyNullReference occurrences="1">
+      <code>createElement</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Migration/Migrations/LogToReportMigration.php">
+    <PossiblyNullReference occurrences="1">
+      <code>removeChild</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/Migration/Migrations/RemoveEmptyFilter.php">
+    <PossiblyNullReference occurrences="2">
+      <code>removeChild</code>
+      <code>removeChild</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/PHP/Constant.php">
+    <MissingParamType occurrences="1">
+      <code>$value</code>
+    </MissingParamType>
+    <MissingReturnType occurrences="1">
+      <code>value</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/PHP/ConstantCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;constants</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/PHP/IniSettingCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;iniSettings</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/PHP/Variable.php">
+    <MissingParamType occurrences="1">
+      <code>$value</code>
+    </MissingParamType>
+    <MissingReturnType occurrences="1">
+      <code>value</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/PHP/VariableCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;variables</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/PHPUnit/ExtensionCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;extensions</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/PHPUnit/PHPUnit.php">
+    <DeprecatedMethod occurrences="1">
+      <code>hasCacheResultFile</code>
+    </DeprecatedMethod>
+    <MissingParamType occurrences="1">
+      <code>$columns</code>
+    </MissingParamType>
+    <MissingReturnType occurrences="1">
+      <code>columns</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/TestSuite/TestDirectoryCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;directories</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/TestSuite/TestFileCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;files</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/TextUI/XmlConfiguration/TestSuite/TestSuiteCollectionIterator.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>int</code>
+    </InvalidNullableReturnType>
+    <NullableReturnStatement occurrences="1">
+      <code>$this-&gt;position</code>
+    </NullableReturnStatement>
+    <PossiblyNullArrayOffset occurrences="1">
+      <code>$this-&gt;testSuites</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/Util/Annotation/DocBlock.php">
+    <MissingThrowsDocblock occurrences="1">
+      <code>throw new SkippedTestError;</code>
+    </MissingThrowsDocblock>
+    <RedundantCast occurrences="1">
+      <code>(string) $matches['value'][$i]</code>
+    </RedundantCast>
+  </file>
+  <file src="src/Util/Color.php">
+    <MissingClosureParamType occurrences="2">
+      <code>$matches</code>
+      <code>$matches</code>
+    </MissingClosureParamType>
+  </file>
+  <file src="src/Util/Error/Handler.php">
+    <InvalidArgument occurrences="1"/>
+    <MissingClosureParamType occurrences="2">
+      <code>$errorNumber</code>
+      <code>$errorString</code>
+    </MissingClosureParamType>
+    <MissingReturnType occurrences="1">
+      <code>invokeIgnoringWarnings</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Util/ExcludeList.php">
+    <InvalidNullableReturnType occurrences="1">
+      <code>string[]</code>
+    </InvalidNullableReturnType>
+    <MissingThrowsDocblock occurrences="1"/>
+    <NullableReturnStatement occurrences="1">
+      <code>self::$directories</code>
+    </NullableReturnStatement>
+    <PossiblyNullIterator occurrences="1">
+      <code>self::$directories</code>
+    </PossiblyNullIterator>
+  </file>
+  <file src="src/Util/Filter.php">
+    <MissingParamType occurrences="1">
+      <code>$prefix</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Util/GlobalState.php">
+    <MissingParamType occurrences="1">
+      <code>$variable</code>
+    </MissingParamType>
+    <PossiblyInvalidIterator occurrences="1">
+      <code>$constants['user']</code>
+    </PossiblyInvalidIterator>
+  </file>
+  <file src="src/Util/Json.php">
+    <MissingParamType occurrences="1">
+      <code>$json</code>
+    </MissingParamType>
+  </file>
+  <file src="src/Util/Log/JUnit.php">
+    <ArgumentTypeCoercion occurrences="1">
+      <code>$suite-&gt;getName()</code>
+    </ArgumentTypeCoercion>
+    <InvalidPropertyAssignmentValue occurrences="1">
+      <code>$this-&gt;testSuiteTimes</code>
+    </InvalidPropertyAssignmentValue>
+    <MissingThrowsDocblock occurrences="4">
+      <code>Filter::getFilteredStacktrace($t)</code>
+      <code>parent::__construct($out)</code>
+    </MissingThrowsDocblock>
+    <PossiblyNullReference occurrences="1">
+      <code>setAttribute</code>
+    </PossiblyNullReference>
+    <UndefinedInterfaceMethod occurrences="2">
+      <code>getName</code>
+      <code>getName</code>
+    </UndefinedInterfaceMethod>
+  </file>
+  <file src="src/Util/Log/TeamCity.php">
+    <ArgumentTypeCoercion occurrences="1">
+      <code>$className</code>
+    </ArgumentTypeCoercion>
+    <DocblockTypeContradiction occurrences="2">
+      <code>$actualString === null</code>
+      <code>$expectedString === null</code>
+    </DocblockTypeContradiction>
+    <MissingParamType occurrences="1">
+      <code>$value</code>
+    </MissingParamType>
+    <MissingThrowsDocblock occurrences="2">
+      <code>Filter::getFilteredStacktrace($t)</code>
+    </MissingThrowsDocblock>
+    <PropertyNotSetInConstructor occurrences="2">
+      <code>$flowId</code>
+      <code>$startedTestName</code>
+    </PropertyNotSetInConstructor>
+    <RedundantCondition occurrences="1">
+      <code>$previous-&gt;getPrevious()</code>
+    </RedundantCondition>
+    <UndefinedInterfaceMethod occurrences="7">
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+    </UndefinedInterfaceMethod>
+  </file>
+  <file src="src/Util/PHP/AbstractPhpProcess.php">
+    <ArgumentTypeCoercion occurrences="5">
+      <code>$this-&gt;getException($failures[0])</code>
+      <code>$this-&gt;getException($notImplemented[0])</code>
+      <code>$this-&gt;getException($risky[0])</code>
+      <code>$this-&gt;getException($skipped[0])</code>
+      <code>$this-&gt;getException($warnings[0])</code>
+    </ArgumentTypeCoercion>
+    <InvalidArgument occurrences="1"/>
+    <LessSpecificReturnStatement occurrences="1">
+      <code>$exception</code>
+    </LessSpecificReturnStatement>
+    <MissingClosureParamType occurrences="4">
+      <code>$errfile</code>
+      <code>$errline</code>
+      <code>$errno</code>
+      <code>$errstr</code>
+    </MissingClosureParamType>
+    <MissingThrowsDocblock occurrences="1">
+      <code>CodeCoverage::instance()</code>
+    </MissingThrowsDocblock>
+    <MoreSpecificReturnType occurrences="1">
+      <code>Exception</code>
+    </MoreSpecificReturnType>
+    <PossiblyFalseOperand occurrences="1">
+      <code>strrpos($key, "\0")</code>
+    </PossiblyFalseOperand>
+    <UndefinedInterfaceMethod occurrences="2">
+      <code>addToAssertionCount</code>
+      <code>setResult</code>
+    </UndefinedInterfaceMethod>
+  </file>
+  <file src="src/Util/PHP/DefaultPhpProcess.php">
+    <RedundantCondition occurrences="1">
+      <code>$_SERVER</code>
+    </RedundantCondition>
+    <TypeDoesNotContainNull occurrences="1">
+      <code>[]</code>
+    </TypeDoesNotContainNull>
+  </file>
+  <file src="src/Util/Printer.php">
+    <PropertyNotSetInConstructor occurrences="1">
+      <code>$stream</code>
+    </PropertyNotSetInConstructor>
+    <RedundantConditionGivenDocblockType occurrences="2">
+      <code>$this-&gt;stream</code>
+      <code>$this-&gt;stream</code>
+    </RedundantConditionGivenDocblockType>
+  </file>
+  <file src="src/Util/Test.php">
+    <MissingReturnType occurrences="1">
+      <code>sanitizeVersionNumber</code>
+    </MissingReturnType>
+    <MissingThrowsDocblock occurrences="6">
+      <code>forClassName</code>
+      <code>forMethod</code>
+      <code>forMethod</code>
+      <code>getName</code>
+      <code>requirements</code>
+      <code>requirements</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Util/TestDox/CliTestDoxPrinter.php">
+    <MissingThrowsDocblock occurrences="2">
+      <code>\PHPUnit\Util\Filter::getFilteredStacktrace($t)</code>
+      <code>stop</code>
+    </MissingThrowsDocblock>
+    <PossiblyInvalidArrayOffset occurrences="6">
+      <code>$prefix['default']</code>
+      <code>$prefix['diff']</code>
+      <code>$prefix['last']</code>
+      <code>$prefix['message']</code>
+      <code>$prefix['start']</code>
+      <code>$prefix['trace']</code>
+    </PossiblyInvalidArrayOffset>
+    <PossiblyUndefinedArrayOffset occurrences="1">
+      <code>self::STATUS_STYLES[$result['status']-&gt;asString()]['message']</code>
+    </PossiblyUndefinedArrayOffset>
+  </file>
+  <file src="src/Util/TestDox/HtmlResultPrinter.php">
+    <PossiblyNullArgument occurrences="1">
+      <code>$this-&gt;currentTestClassPrettified</code>
+    </PossiblyNullArgument>
+  </file>
+  <file src="src/Util/TestDox/NamePrettifier.php">
+    <InvalidCast occurrences="1">
+      <code>$value</code>
+    </InvalidCast>
+    <MissingThrowsDocblock occurrences="1"/>
+    <RedundantConditionGivenDocblockType occurrences="1">
+      <code>is_string($value)</code>
+    </RedundantConditionGivenDocblockType>
+  </file>
+  <file src="src/Util/TestDox/ResultPrinter.php">
+    <MissingThrowsDocblock occurrences="1">
+      <code>parent::__construct($out)</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Util/TestDox/TestDoxPrinter.php">
+    <MissingThrowsDocblock occurrences="1">
+      <code>Filter::getFilteredStacktrace($t)</code>
+    </MissingThrowsDocblock>
+    <UndefinedInterfaceMethod occurrences="1">
+      <code>getName</code>
+    </UndefinedInterfaceMethod>
+  </file>
+  <file src="src/Util/TestDox/XmlResultPrinter.php">
+    <MissingThrowsDocblock occurrences="2">
+      <code>parent::__construct($out)</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Util/TextTestListRenderer.php">
+    <ArgumentTypeCoercion occurrences="1">
+      <code>$suite-&gt;getIterator()</code>
+    </ArgumentTypeCoercion>
+  </file>
+  <file src="src/Util/VersionComparisonOperator.php">
+    <MissingThrowsDocblock occurrences="1">
+      <code>ensureOperatorIsValid</code>
+    </MissingThrowsDocblock>
+  </file>
+  <file src="src/Util/Warning.php">
+    <RedundantCondition occurrences="1">
+      <code>assert($step['object'] instanceof TestCase)</code>
+    </RedundantCondition>
+  </file>
+  <file src="src/Util/Xml.php">
+    <ArgumentTypeCoercion occurrences="1">
+      <code>$item</code>
+    </ArgumentTypeCoercion>
+    <InvalidStringClass occurrences="1">
+      <code>new $className</code>
+    </InvalidStringClass>
+    <MissingReturnType occurrences="1">
+      <code>xmlToVariable</code>
+    </MissingReturnType>
+    <MissingThrowsDocblock occurrences="1"/>
+    <RedundantCast occurrences="1">
+      <code>(string) $entry-&gt;getAttribute('key')</code>
+    </RedundantCast>
+  </file>
+  <file src="src/Util/XmlTestListRenderer.php">
+    <ArgumentTypeCoercion occurrences="1">
+      <code>$suite-&gt;getIterator()</code>
+    </ArgumentTypeCoercion>
+  </file>
+</files>
